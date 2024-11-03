@@ -1,0 +1,581 @@
+/* ГОЛОВНА */
+@media (max-width: 1000px) {
+    .header_links {
+        display: none;
+        /* Сховати звичайне меню при ширині 1000px і нижче */
+    }
+
+    .hamburger-menu {
+        display: block;
+        /* Показати бургер-меню */
+    }
+}
+
+@media (min-width: 1001px) {
+    .hamburger-menu {
+        display: none;
+        /* Сховати бургер-меню при ширині більше 1000px */
+    }
+
+    .header_links {
+        display: flex;
+        /* Показати звичайне меню */
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .first_content {
+        padding-left: 30px;
+    }
+
+    .first_title h1 {
+        font-size: 35px;
+        padding-top: 120px;
+    }
+
+    .join_btn a {
+        width: 150px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .first_page .logo {
+        margin-left: 0px;
+    }
+
+    .first_content {
+        margin-top: -50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .first_title h1 {
+        font-size: 30px;
+        padding-top: 80px;
+    }
+
+    .join_btn a {
+        width: 200px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) {
+    .first_content {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .first_title h1 {
+        font-size: 24px;
+        padding-top: 60px;
+    }
+
+    .join_btn a {
+        width: 200px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .first_content {
+        padding-left: -20px;
+        padding-right: 5px;
+    }
+
+    .first_title h1 {
+        font-size: 20px;
+        padding-top: 60px;
+    }
+
+    .join_btn a {
+        width: 150px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 420px) {
+    .first_page .logo {
+        margin-left: -80px;
+    }
+
+    .first_page {
+        margin-left: -80px;
+    }
+}
+
+@media (max-width: 350px) {
+    .first_title h1 {
+        font-size: 18px;
+    }
+
+    .join_btn a {
+        width: 150px;
+        font-size: 10px;
+    }
+}
+
+
+
+/* ПРО МЕНЕ */
+@media (max-width: 1300px) {
+    #about-me .info-block {
+        max-width: 70%;
+    }
+
+    #about-me .section-title {
+        font-size: 36px;
+    }
+
+    #about-me .info-label {
+        width: 130px;
+        /* Зменшено для середніх екранів */
+    }
+}
+
+@media (max-width: 992px) {
+    #about-me .content {
+        padding-left: 10%;
+        /* Менше відступів для середніх екранів */
+    }
+
+    #about-me .info-block {
+        max-width: 90%;
+        transform: translateX(0);
+        /* Вимкнуто зміщення */
+    }
+
+    #about-me .section-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about-me .section-title {
+        font-size: 28px;
+    }
+
+    #about-me .info-label {
+        width: auto;
+        /* Вимкнуто фіксовану ширину */
+        display: block;
+        /* Перехід на блочний елемент */
+    }
+}
+
+@media (max-width: 576px) {
+    #about-me .info-block {
+        padding: 15px;
+        /* Менше внутрішніх відступів */
+    }
+
+    #about-me .section-title {
+        font-size: 24px;
+    }
+
+    #about-me .info-item {
+        margin-bottom: 5px;
+        /* Менше відступів між пунктами */
+    }
+}
+
+
+
+/* НАВИЧКИ */
+@media (max-width: 1300px) {
+    .skills .section-title {
+        font-size: 36px;
+    }
+
+    .skills .content {
+        padding: 1.5rem;
+        /* Зменшено відступи для середніх екранів */
+    }
+
+    .skills .skill-item {
+        margin-bottom: 15px;
+        /* Менше відступів між навичками */
+    }
+}
+
+@media (max-width: 992px) {
+    .skills .content {
+        padding: 1rem;
+        /* Ще менше відступів */
+    }
+
+    .skills .section-title {
+        font-size: 32px;
+    }
+
+    .skills .progress-bar {
+        height: 20px;
+        /* Зменшено висоту прогрес-барів */
+    }
+
+    .skills .progress {
+        height: 20px;
+        /* Висота прогресу також зменшена */
+    }
+}
+
+@media (max-width: 768px) {
+    .skills .section-title {
+        font-size: 28px;
+    }
+
+    .skills .content {
+        max-width: 90%;
+        /* Ширина контенту */
+    }
+
+    .skills .skill-item {
+        flex: 0 0 100%;
+        /* Переход на один стовпець */
+    }
+}
+
+@media (max-width: 576px) {
+    .skills .section-title {
+        font-size: 24px;
+        /* Менший шрифт заголовка */
+    }
+
+    .skills .progress-bar {
+        font-size: 12px;
+        /* Менший шрифт для прогрес-барів */
+    }
+
+    .skills .progress-bar span {
+        right: 5px;
+        /* Менше відстань для тексту */
+    }
+}
+
+
+
+/* ПОСЛУГИ */
+@media (max-width: 1300px) {
+    .section-intro h1 {
+        font-size: 36px;
+        /* Зменшено шрифт заголовка */
+    }
+
+    .section-intro h5 {
+        font-size: 14px;
+        /* Зменшено шрифт підзаголовка */
+    }
+
+    .services-grid {
+        gap: 15px;
+        /* Збільшено відстань між елементами */
+    }
+
+    .service {
+        flex: 1 1 calc(50% - 10px);
+        /* Два елементи в ряд */
+    }
+}
+
+@media (max-width: 992px) {
+    .section-intro h1 {
+        font-size: 32px;
+        /* Ще менший шрифт заголовка */
+    }
+
+    .service-img {
+        width: 30%;
+        /* Збільшено ширину зображень */
+    }
+}
+
+@media (max-width: 768px) {
+    .section-intro h1 {
+        font-size: 28px;
+        /* Менший шрифт заголовка */
+    }
+
+    .section-intro h5 {
+        font-size: 12px;
+        /* Менший шрифт підзаголовка */
+    }
+
+    .service h3 {
+        font-size: 14px;
+        /* Менший шрифт для заголовків послуг */
+    }
+
+    .service p {
+        font-size: 12px;
+        /* Менший шрифт для опису */
+    }
+}
+
+@media (max-width: 576px) {
+    .section-intro h1 {
+        font-size: 24px;
+        /* Ще менший шрифт заголовка */
+    }
+
+    .section-intro h5 {
+        font-size: 10px;
+        /* Мінімальний шрифт підзаголовка */
+    }
+
+    .services-grid {
+        gap: 10px;
+        /* Менше відстані між елементами */
+    }
+
+    .service {
+        flex: 1 1 calc(100% - 10px);
+        /* Один елемент в ряд */
+        padding: 10px;
+        /* Більше відступів для маленьких екранів */
+    }
+
+    .service-img {
+        width: 40%;
+        /* Зображення заповнює більше простору */
+    }
+}
+
+
+
+/* ПРОЄКТИ */
+@media (max-width: 1300px) {
+    .section-intro h1 {
+        font-size: 32px;
+        /* Зменшено шрифт заголовка */
+    }
+
+    .projects-list {
+        justify-content: space-around;
+        /* Змінено вирівнювання */
+    }
+
+    .project {
+        width: 45%;
+        /* Два проєкти в ряд */
+    }
+}
+
+@media (max-width: 992px) {
+    .section-intro h1 {
+        font-size: 28px;
+        /* Менший шрифт заголовка */
+    }
+
+    .project {
+        margin-bottom: 15px;
+        /* Менше відстань між проєктами */
+    }
+}
+
+@media (max-width: 768px) {
+    .section-intro h1 {
+        font-size: 24px;
+        /* Ще менший шрифт заголовка */
+    }
+
+    .project {
+        width: 100%;
+        /* Один проєкт в ряд */
+    }
+
+    .project h3 {
+        font-size: 14px;
+        /* Менший шрифт для заголовків проєктів */
+    }
+
+    .project p {
+        font-size: 12px;
+        /* Менший шрифт для опису */
+    }
+}
+
+@media (max-width: 576px) {
+    .section-intro h1 {
+        font-size: 20px;
+        /* Мінімальний шрифт заголовка */
+    }
+
+    .project h3 {
+        font-size: 12px;
+        /* Ще менший шрифт для заголовків проєктів */
+    }
+
+    .project p {
+        font-size: 10px;
+        /* Мінімальний шрифт для опису */
+    }
+
+    .project-img {
+        margin-bottom: 10px;
+        /* Менше відстань під зображенням */
+    }
+}
+
+
+
+/* ФОРМА ЗВ'ЯЗКУ */
+@media (max-width: 1300px) {
+    #contact h1 {
+        font-size: 32px;
+        /* Зменшення шрифту заголовка */
+        margin-left: 50px;
+        /* Менше відступ зліва */
+    }
+
+    #contact form {
+        margin-left: 50px;
+        /* Менше відступ зліва для форми */
+    }
+}
+
+@media (max-width: 992px) {
+    #contact h1 {
+        font-size: 28px;
+        /* Менший шрифт заголовка */
+        margin-left: 20px;
+        /* Ще менше відступ зліва */
+    }
+
+    #contact form {
+        margin-left: 20px;
+        /* Менше відступ зліва для форми */
+    }
+}
+
+@media (max-width: 768px) {
+    #contact h1 {
+        font-size: 24px;
+        /* Ще менший шрифт заголовка */
+        text-align: center;
+        /* Вирівнювання заголовка по центру */
+        margin-left: 0;
+        /* Вирівнювання без відступу */
+    }
+
+    #contact form {
+        margin-left: 0;
+        /* Без відступу зліва */
+        padding: 20px;
+        /* Менше відступи всередині форми */
+    }
+
+    #contact button.submitform {
+        font-size: 18px;
+        /* Зменшення шрифту кнопки */
+    }
+}
+
+@media (max-width: 576px) {
+    #contact h1 {
+        font-size: 20px;
+        /* Мінімальний шрифт заголовка */
+    }
+
+    #contact input,
+    #contact textarea {
+        padding: 10px;
+        /* Менше відступи всередині полів вводу */
+    }
+
+    #contact button.submitform {
+        padding: 10px;
+        /* Менше відступи кнопки */
+        font-size: 16px;
+        /* Ще менший шрифт кнопки */
+    }
+
+    #message-success {
+        font-size: 12px;
+        /* Менший шрифт для повідомлення про успіх */
+        margin-left: 0;
+        /* Вирівнювання без відступу */
+    }
+}
+
+
+
+/* ФУТЕР */
+@media (max-width: 1300px) {
+    .footer-container {
+        justify-content: center;
+        /* Центруємо вміст футера на великих екранах */
+    }
+
+    .footer-logo,
+    .footer-socials,
+    .footer-email,
+    .footer-phone {
+        max-width: 220px;
+        /* Трохи зменшуємо максимальну ширину */
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-container {
+        flex-direction: column;
+        /* Вирівнюємо елементи у стовпчик */
+        align-items: center;
+        /* Центруємо всі елементи */
+    }
+
+    .footer-logo,
+    .footer-socials,
+    .footer-email,
+    .footer-phone {
+        max-width: 100%;
+        /* Дозволяємо займати всю ширину */
+        margin: 10px 0;
+        /* Зменшуємо відступи між елементами */
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-logo img {
+        max-width: 80px;
+        /* Зменшуємо розмір логотипа */
+    }
+
+    .footer-socials img {
+        width: 40px;
+        /* Менші іконки соціальних мереж */
+    }
+
+    .footer-email img,
+    .footer-phone img {
+        width: 40px;
+        /* Менші іконки для контактів */
+    }
+
+    .footer-email p,
+    .footer-phone p {
+        font-size: 14px;
+        /* Зменшення шрифту для контактів */
+    }
+}
+
+@media (max-width: 576px) {
+    #footer {
+        padding: 20px 10px;
+        /* Менші відступи футера */
+    }
+
+    .footer-socials h3,
+    .footer-email h3,
+    .footer-phone h3 {
+        font-size: 16px;
+        /* Менший шрифт заголовків */
+    }
+
+    .footer-email p,
+    .footer-phone p {
+        font-size: 12px;
+        /* Ще менший шрифт для контактів */
+    }
+}
